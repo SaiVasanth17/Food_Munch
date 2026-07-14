@@ -1,0 +1,48 @@
+.banner-section-bg-container {
+    height: 100vh;
+    background-image: url("../../assets/images/foodmunch-banner-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-button:hover {
+    background-color: #b89a00;
+}
+
+.custom-outline-button {
+    color: #d0b200;
+    background: transparent;
+    width: 130px;
+    height: 45px;
+    border: 1px solid #d0b200;
+    border-radius: 8px;
+}
+
+.custom-outline-button:hover {
+    background: #d0b200;
+    color: white;
+}

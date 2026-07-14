@@ -1,0 +1,38 @@
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+    text-align: center;
+}
+
+.icons {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: .3s;
+}
+
+.follow-us-icon-container:hover {
+    background: #d0b200;
+}
+
+.follow-us-icon-container:hover .icons {
+    color: white;
+}
